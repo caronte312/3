@@ -1,3 +1,9 @@
+header div{
+    height: 10vh;
+    background-image: url("/assets/media/imagenes/LOGO-IMAGEN.jpg");
+    background-size: 10vh;
+    background-repeat: no-repeat;
+}
 nav a{
     text-decoration:none;
     color: inherit;
@@ -25,4 +31,3 @@ nav a{
       color: red;
       font-size:4vw;
   }
-  
