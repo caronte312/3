@@ -12,13 +12,13 @@ footer section{
 
 }
 
-.barra_inferior i{
+.barra_inferior a{
     color: var(--blanco);
     padding: 1%;
     margin-top: 3vh;
     transition: transform 200ms ease-in-out;
 }
 
-.barra_inferior i:hover{
+.barra_inferior a:hover{
     transform: scale(130%);
 }
