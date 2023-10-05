@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,50 +26,55 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- Iconos de redes -->
+    <script src="https://kit.fontawesome.com/e30e97780d.js" crossorigin="anonymous"></script>
     <title>El consultorio de Victor</title>
   </head>
+  
   <body>
     <header>
-      <div></div>
-      <h1>Bienvenido a su consultorio virtual</h1>
       <nav>
-        <ul>
-          <li><a href="#">Principal</a></li>
-          <li><a href="./pages/pacientes.html">Pacientes</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li>
-          <li><a href="#">Quienes Somos</a></li>
-        </ul>
+        <div></div>
+          <a href="index.html">Principal</a>
+          <a href="./pages/pacientes.html">Pacientes</a>
+          <a href="./pages/contacto.html">Contacto</a>
+          <a href="./pages/quienes_somos.html">Quienes Somos</a>
       </nav>
-    </header> 
-    <div class="slideshow-container">
+      <h1>Bienvenido a su consultorio virtual</h1>
     
+    
+    <div class="slideshow-container">
+    <!-- Pasé imagen de el a "quienes somos" -->
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="/assets/media/imagenes/IMAGEN CARA.png" style="width:80%">
+         <img src="/assets/media/imagenes/medico.jpg" style="width: 100%"> 
       <div class="text">Caption Text</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="/assets/media/imagenes/IMAGEN paciente.png" style="width:80%">
+        <img src="/assets/media/imagenes/paciente.jpg" style="width: 100%;"> 
       <div class="text">Caption Two</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="/assets/media/imagenes/IMAGEN info.png" style="width:80%">
+        <img src="/assets/media/imagenes/medico1.jpg" style="width: 100%;"> 
       <div class="text">Caption Three</div>
     </div>
     
     </div>
-    <br>
+    
     
     <div style="text-align:center">
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
     </div>
+    <br>
     
+    </header>
+
     <main>
       <section>
         <h2>Donde estamos</h2>
@@ -84,7 +90,14 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="barra_inferior">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-regular fa-envelope"></i>
+      </section>
+    </footer>
     <script src="/assets/index.js"></script>
   </body>
 </html>

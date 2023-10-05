@@ -1,33 +1,35 @@
-header div{
-    height: 10vh;
-    background-image: url("/assets/media/imagenes/LOGO-IMAGEN.jpg");
-    background-size: 10vh;
+header nav{
+    /*background-color: var(--blanco);*/
+    height: 20vh;
+    font-style: "Courier New";
+    text-align: right;
+    /*padding-right:2vh*/
+    background-image: url("/assets/media/imagenes/Logo.jpg");
+    background-size: 20vh;
     background-repeat: no-repeat;
+    background-position-y: center;
+    
 }
-nav a{
+header nav a{
     text-decoration:none;
     color: inherit;
-    font-size:14px;
-  }
-  
-  nav li{
-    display:inline-block;
-    width:10%;
-    padding:5px 10px;
-    background-color:#000;
-    border:1px solid #000;
-    text-align:center;
-    color:#fff;
-  }
-  
-  nav li:hover{
-    background-color:#fff;
-    color:#000;
+    font: size 16px;
+    display: inline-block;
+    padding: 2%;
+    background-color: var(--azul-oscuro);
+    height: 5vh;
+    color: white; 
   }
   
   
-  h1 {
-      font-weight: bold;
-      color: red;
-      font-size:4vw;
+header nav a:hover{
+    background-color: var(--celeste);
+    color: white;
+  }
+  
+  
+h1 {
+  font-weight: bold;
+  color: red;
+  font-size:4vw;
   }
