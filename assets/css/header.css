@@ -1,21 +1,24 @@
 header nav{
     /*background-color: var(--blanco);*/
     height: 20vh;
-    font-style: "Courier New";
     text-align: right;
     /*padding-right:2vh*/
     background-image: url("/assets/media/imagenes/Logo.jpg");
     background-size: 20vh;
     background-repeat: no-repeat;
     background-position-y: center;
-    
+    background-position-x: 10px;
 }
+
 header nav a{
     text-decoration:none;
     color: inherit;
     font: size 16px;
     display: inline-block;
-    padding: 2%;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
     background-color: var(--azul-oscuro);
     height: 5vh;
     color: white; 
@@ -27,9 +30,15 @@ header nav a:hover{
     color: white;
   }
   
-  
+header nav a.active{
+  background-color: var(--celeste);
+}
 h1 {
+  background-color: var(--azul-oscuro);
+  height: 5vh;
   font-weight: bold;
-  color: red;
-  font-size:4vw;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
   }

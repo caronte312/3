@@ -4,15 +4,21 @@ footer{
 
 footer section{
     background-image: linear-gradient(to right, var(--azul-oscuro), var(--celeste));
+    border: 2px ;
     height: 20vh;
     width: 100%;
+    display: flex;
+    justify-content:flex-start;
+
 }
 
 .barra_inferior i{
     color: var(--blanco);
     padding: 1%;
+    margin-top: 3vh;
+    transition: transform 200ms ease-in-out;
 }
 
-.barra_inferior i:first-child{
-    margin-left: 5%;
+.barra_inferior i:hover{
+    transform: scale(130%);
 }
