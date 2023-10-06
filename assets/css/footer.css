@@ -1,6 +1,6 @@
-footer{
+/* footer{
     height: 30%;
-}
+} */
 
 footer section{
     background-image: linear-gradient(to right, var(--azul-oscuro), var(--celeste));
