@@ -12,7 +12,7 @@
 --azul-claro: #2C6CBF;
 --celeste: #80B2F2;
 --gris: #BFBFBD;
---blanco: #F2F2F2;
+--blanco: #FBFBFB;
 --rojo: #FBC899;
 }
 
@@ -22,7 +22,7 @@ main .line{
 }
 
 main div h1{
-  background-color: white;
+  background-color: var(--blanco);
   height: 10vh;
   color: black;
   text-align: center;
@@ -32,7 +32,7 @@ main div h1{
 
 .slider {
   width:100%;
-  height: 400px;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -61,6 +61,22 @@ main div h1{
 
   70%{margin-left: -200%;}
   100%{margin-left: -200%;}
+
+}
+
+.botones{
+  height: 30vh;
+  width: 100%;
+  background-color: var(--blanco);
+  box-shadow: inset 0vh 1vh #bbbbbb0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones span img{
+  height: 12vh;
+  padding: 0vh 5vh;
 
 }
 
