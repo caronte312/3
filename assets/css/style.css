@@ -14,11 +14,7 @@
 --gris: #BFBFBD;
 --blanco: #FBFBFB;
 --rojo: #FBC899;
-}
-
-main .line{
-  background-color: var(--celeste);
-  height: 1vh;
+font-size: 16px;
 }
 
 main div h1{
@@ -77,6 +73,14 @@ main div h1{
 .botones span img{
   height: 12vh;
   padding: 0vh 5vh;
+}
+
+.botones_texto
+{
+  position: relative;
+  top: 2vh;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .form {
