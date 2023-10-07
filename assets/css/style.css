@@ -30,6 +30,40 @@ main div h1{
   padding-top: 3.5vh;
 }
 
+.slider {
+  width:100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider ul{
+  display: flex;
+  animation: switch 20s infinite alternate linear;
+  width: 300%;
+}
+
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+
+.slider img{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes switch {
+  0%{margin-left: 0%;}
+  30%{margin-left: 0%;}
+
+  40%{margin-left: -100%;}
+  60%{margin-left: -100%;}
+
+  70%{margin-left: -200%;}
+  100%{margin-left: -200%;}
+
+}
+
 .form {
   width: 100%;
   max-width: 600px;
